@@ -1,0 +1,182 @@
+body {
+	font-family: $sans-serif;
+	background-color: #ebebeb;
+}
+
+h1, h2, h3, h4 {
+	font-family: $serif;
+	color: $primary;
+}
+
+h1, h2 {
+	margin-bottom: 0;
+	a {
+		color: $primary;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.jumbo-home {
+	font-size: 28px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+	text-align: center;
+	h1 {
+		color: white !important;
+		background-color: rgba(0,0,0,.5);
+		padding-top: 36px;
+		padding-bottom: 10px;
+	}
+}
+
+h2 {
+	// color: $secondary;
+	// font-family: $sans-serif;
+	// text-transform: uppercase;
+}
+
+ul {
+	list-style-type: square;
+	padding: 0 0 0 20px;
+	margin: 0;
+}
+
+a {
+	color: $secondary;
+	transition: .4s all;
+	&:hover {
+		color: $primary;
+	}
+}
+
+.inline-img {
+	float: right;
+	padding: 5px 0 5px 5px;
+}
+.image-head {
+	display: inline-block;
+}
+
+.row {
+	margin-top: 30px;	
+}
+
+.card {
+	padding: 0 15px;
+	overflow: hidden;
+	background-color: white;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+	h2 {
+		margin: 0 -15px;
+		background-color: $primary;
+		padding: 10px 15px;
+		color: white;
+	}
+	ul {
+		margin-top: 20px;
+		li {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.text-center {
+	text-align: center;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.extra-padding {
+	padding: 0px 30px;
+}
+
+.sub {
+	margin-top: 5px;
+	font-size: 15px;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.jumbo-img {
+	background: url(../images/background.jpg);
+	background-size: 100% auto;
+	width: 100%;
+	height: 500px;
+}
+
+.jumbo-img-weather {
+	background: url(../images/weather.jpg);
+	background-size: 100% auto;
+	width: 100%;
+	height: 200px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: -300px 0;
+}
+
+.jumbo-img-greenhouse {
+	background: url(../images/greenhouse.jpg);
+	background-size: 100% auto;
+	width: 100%;
+	height: 200px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: -300px 0;
+}
+
+.jumbo-img-health {
+	background: url(../images/health.jpg);
+	background-size: 100% auto;
+	width: 100%;
+	height: 200px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: -300px 0;
+}
+
+.top-head {
+	display: inline-block;
+	padding: 0 10px 5px;
+	margin-top: 100px;
+	color: white;
+	font-size: 48px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+	background-color: rgba(0,0,0,.5);
+}
+
+.shorten-img {
+	max-height: 200px;
+}
+
+.full-img {
+	width: 100%;
+}
+
+.push-nav {
+	margin-top: 75px;
+}
+
+.panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
+	color: $primary;
+}
+
+.panel-body {
+	padding: 0 15px !important;
+}
+
+.panel-heading {
+	background-color: white !important;
+}

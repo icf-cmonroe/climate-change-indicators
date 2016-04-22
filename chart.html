@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GSA Hackathon Website">
+  <meta name="author" content="ICF International">
+  <title>Need a Title</title>
+  <link href="css/bootstrap-only.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script type="text/javascript" src="scripts/jquery-1.12.3.min.js"></script>
+  <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic|Bree+Serif' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <a href="index.html">
+      <div class="navbar-header">        
+          <img src="images/epa.png" class="logo" alt="epa logo">
+          <div class="logo-sub">Climate Change Indicators</div>
+      </div>
+      </a>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="greenhouse/default.html">Greenhouse Gases</a></li>
+          <li><a href="weather/default.html">Weather &amp; Climate</a></li>
+          <li><a href="health/default.html">Health &amp; Society</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <div class="container push-nav">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="nav nav-tabs nav-justified">
+          <li><a href="#">US Temperatures</a></li>
+          <li><a class="j-active" href="#">High &amp; Low Temperatures</a></li>
+        </ul>
+        <div class="tabContainer">
+          <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 754px; height: 869px;'><noscript><a href='#'><img alt='W&amp;C Extreme Temp ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;WeatherandClimateChangePart2&#47;WCExtremeTemp&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='754' height='869' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='WeatherandClimateChangePart2&#47;WCExtremeTemp' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;We&#47;WeatherandClimateChangePart2&#47;WCExtremeTemp&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
+        </div>
+      </div> 
+      <div class="col-md-4">
+        <h1>Summary</h1>
+        <p>Concentrations of heat-trapping greenhouse gases are increasing in the Earth's atmosphere (see the Atmospheric Concentrations of Greenhouse Gases indicator). In response, average temperatures at the Earth's surface are rising and are expected to continue rising. Observed changes in U.S. temperatures reflect the overall warming trend.</p>
+        <div class="card">
+        <h2>Background</h2>
+        <p>Temperature is a fundamental measurement for describing the climate, and the temperature in particular places can have wide-ranging effects on human life and ecosystems. For example, increases in air temperature can lead to more intense heat waves, which can cause illness and death, especially in vulnerable populations. Annual and seasonal temperature patterns also determine the types of animals and plants that can survive in particular locations. Changes in temperature can disrupt a wide range of natural processes, particularly if these changes occur more quickly than plant and animal species can adapt.</p>
+        <p>Concentrations of heat-trapping greenhouse gases are increasing in the Earth's atmosphere (<a href="#">see the Atmospheric Concentrations of Greenhouse Gases indicator</a>). In response, average temperatures at the Earth's surface are rising and are expected to continue rising. However, because climate change can shift the wind patterns and ocean currents that drive the world's climate system, some areas are warming more than others, and some have experienced cooling.</p>
+        </div>
+      </div> 
+    </div>
+    <div class="row">
+      <!-- START ACCORDION -->
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                About the Indicator
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+              <p>This indicator examines U.S. and global surface temperature patterns over time. U.S. surface measurements come from weather stations on land, while global surface measurements also incorporate observations from buoys and ships on the ocean, thereby providing data from sites spanning much of the surface of the Earth. This indicator starts at 1901 except for the detailed map of Alaska, where reliable statewide records are available back to 1925. For comparison, this indicator also displays satellite measurements that can be used to estimate the temperature of the Earth’s lower atmosphere since 1979.</p>
+              <p>This indicator shows annual anomalies, or differences, compared with the average temperature from 1901 to 2000. For example, an anomaly of +2.0 degrees means the average temperature was 2 degrees higher than the long-term average. Anomalies have been calculated for each weather station. Daily temperature measurements at each site were used to calculate monthly anomalies, which were then averaged to find an annual temperature anomaly for each year. Anomalies for the contiguous 48 states and Alaska have been determined by calculating average anomalies for areas within each state based on station density, interpolation, and topography. These regional anomalies are then averaged together in proportion to their area to develop national results. Similarly, global anomalies have been determined by dividing the world into a grid, averaging the data for each cell of the grid, and then averaging the grid cells together.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Indicator Notes
+              </a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+              <p>Data from the early 20th century are somewhat less precise than more recent data because there were fewer stations collecting measurements at the time, especially in the Southern Hemisphere. However, the overall trends are still reliable. Where possible, the data have been adjusted to account for any biases that might be introduced by factors such as station moves, urbanization near the station, changes in measuring instruments, and changes in the exact times at which measurements are taken.</p>
+              <p>Hawaii is not included, due to limitations in available data.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFour">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Data Sources
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body">
+              <p>The data for this indicator were provided by the National Oceanic and Atmospheric Administration’s National Centers for Environmental Information, which maintains a large collection of climate data online at: <a href="#">www.ncei.noaa.gov</a>. Surface temperature anomalies were calculated based on monthly values from a network of long-term monitoring stations. Satellite data were analyzed by two independent groups—the Global Hydrology and Climate Center at the University of Alabama in Huntsville (UAH) and Remote Sensing Systems (RSS)—resulting in slightly different trend lines.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFive">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Technical Documentation
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div class="panel-body">
+              <p>
+                <ul>
+                  <li><a href="#">Download related technical information</a></li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row bottom-nav">
+      <div class="col-md-6">
+        <a href="#"><span class="prev"><i class="fa fa-chevron-left" aria-hidden="true"></i> <strong>Previous Section:</strong><span class="section">Greenhouse Gases</span></span></a>
+      </div>
+      <div class="col-md-6">
+        <span class="next"><a href="#"><strong>Next Section:</strong> <i class="fa fa-chevron-right" aria-hidden="true"></i><span class="section">Health &amp; Society</span></a></span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

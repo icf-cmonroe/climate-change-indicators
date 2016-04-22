@@ -1,0 +1,144 @@
+.navbar-default {
+	background-color: $primary;
+	color: white;
+	border-bottom: 0;
+
+	.navbar-nav {
+		li {
+			margin-left: 20px;
+			a {
+				color: white;
+				padding: 30px 15px;
+				transition: all .4s;
+				&:hover {
+					color: $tertiary;
+				}
+			}
+		}
+	}
+
+	.navbar-brand {
+		padding: 30px 15px;
+		color: $tertiary;
+		font-family: $serif;
+		font-size: 32px;
+	}
+
+	.logo {
+		height: 30px;
+		margin-top: 13px;
+	}
+
+	.logo-sub {
+		color: white;
+		text-align: center;
+		margin-top: 5px;
+		border-top: solid 1px $tertiary;
+		padding-top: 2px;
+	}
+}
+
+.navbar-default .navbar-nav > .active > a {
+	background-color: transparent;
+	color: $tertiary;
+	-webkit-box-shadow: inset 0px -5px 0px 0px $tertiary;
+	-moz-box-shadow: inset 0px -5px 0px 0px $tertiary;
+	box-shadow: inset 0px -5px 0px 0px $tertiary;
+
+	&:hover, &:focus {
+		color: $tertiary;
+		background-color: transparent;
+	}
+}
+
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle, 
+.navbar-default .navbar-toggle {
+	background-color: transparent !important;
+	border: none !important;
+}
+
+.navbar-nav {
+	margin-bottom: 0px;
+}
+
+// TOP NAVIGATION
+.nav-justified {
+	li {
+		border: none !important;
+	}
+	a {
+		color: $primary;
+		border: none !important;
+		&:hover {
+			background-color: white !important;
+		}
+	}
+	.j-active {
+		-webkit-box-shadow: inset 0px 4px 0px 0px $accent;
+		-moz-box-shadow: inset 0px 4px 0px 0px $accent;
+		box-shadow: inset 0px 4px 0px 0px $accent;		
+		background-color: white;
+		font-weight: bold !important;
+		&:hover {
+			-webkit-box-shadow: inset 0px 4px 0px 0px $accent;
+			-moz-box-shadow: inset 0px 4px 0px 0px $accent;
+			box-shadow: inset 0px 4px 0px 0px $accent;		
+			background-color: white;
+		}
+	}
+}
+
+// BOTTOM NAVIGATION
+.bottom-nav {
+	border-top: solid 1px #cccccc;
+	padding: 20px 0 10px 0;
+	transition: all .4s;
+	font-size: 18px;
+	.fa-chevron-left {
+		margin-right: 3px;
+		transition: all .4s;
+	}
+	.fa-chevron-right {
+		margin-left: 3px;
+		transition: all .4s;
+	}
+	a {
+		text-decoration: none;
+		color: $primary;
+		&:hover {
+			color: $secondary;
+			.fa-chevron-left {
+				margin-right: 6px;
+				color: $primary;
+			}
+			.fa-chevron-right {
+				margin-left: 6px;
+				color: $primary;
+			}
+		}
+	}
+	.prev {
+		float: right;
+		text-align: right;
+		padding-right: 50px;
+	}
+	.next {
+		padding-left: 50px;
+	}
+	.section {
+		display: block;
+		padding-left: 50px;
+	}
+}
+
+// FOOTER
+footer {
+	background-color: $primary;
+	width: 100%;
+	margin-top: 50px;
+	color: white;
+	padding-bottom: 30px;
+}
+

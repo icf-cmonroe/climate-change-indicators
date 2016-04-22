@@ -1,0 +1,22 @@
+.btn-primary {
+	background-color: $tertiary;
+	border: none;
+	color: $primary;
+	transition: all .4s;
+	padding: 10px 20px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	i {
+		position: relative;
+		left: 3px;
+		top: 1px;
+		transition: all .4s;
+	}
+	&:hover {
+		background-color: $secondary;
+		color: $primary;
+		i{
+			left: 5px;
+		}
+	}
+}

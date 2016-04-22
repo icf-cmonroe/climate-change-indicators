@@ -1,0 +1,409 @@
+/* line 1, ../sass/custom/_navigation.scss */
+.navbar-default {
+  background-color: #192b33;
+  color: white;
+  border-bottom: 0;
+}
+/* line 7, ../sass/custom/_navigation.scss */
+.navbar-default .navbar-nav li {
+  margin-left: 20px;
+}
+/* line 9, ../sass/custom/_navigation.scss */
+.navbar-default .navbar-nav li a {
+  color: white;
+  padding: 30px 15px;
+  transition: all .4s;
+}
+/* line 13, ../sass/custom/_navigation.scss */
+.navbar-default .navbar-nav li a:hover {
+  color: #cccc52;
+}
+/* line 20, ../sass/custom/_navigation.scss */
+.navbar-default .navbar-brand {
+  padding: 30px 15px;
+  color: #cccc52;
+  font-family: "Roboto Slab", serif;
+  font-size: 32px;
+}
+/* line 27, ../sass/custom/_navigation.scss */
+.navbar-default .logo {
+  height: 30px;
+  margin-top: 13px;
+}
+/* line 32, ../sass/custom/_navigation.scss */
+.navbar-default .logo-sub {
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  border-top: solid 1px #cccc52;
+  padding-top: 2px;
+}
+
+/* line 41, ../sass/custom/_navigation.scss */
+.navbar-default .navbar-nav > .active > a {
+  background-color: transparent;
+  color: #cccc52;
+  -webkit-box-shadow: inset 0px -5px 0px 0px #cccc52;
+  -moz-box-shadow: inset 0px -5px 0px 0px #cccc52;
+  box-shadow: inset 0px -5px 0px 0px #cccc52;
+}
+/* line 48, ../sass/custom/_navigation.scss */
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #cccc52;
+  background-color: transparent;
+}
+
+/* line 57, ../sass/custom/_navigation.scss */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+/* line 62, ../sass/custom/_navigation.scss */
+.navbar-nav {
+  margin-bottom: 0px;
+}
+
+/* line 68, ../sass/custom/_navigation.scss */
+.nav-justified li {
+  border: none !important;
+}
+/* line 71, ../sass/custom/_navigation.scss */
+.nav-justified a {
+  color: #192b33;
+  border: none !important;
+}
+/* line 74, ../sass/custom/_navigation.scss */
+.nav-justified a:hover {
+  background-color: white !important;
+}
+/* line 78, ../sass/custom/_navigation.scss */
+.nav-justified .j-active {
+  -webkit-box-shadow: inset 0px 4px 0px 0px #ffd933;
+  -moz-box-shadow: inset 0px 4px 0px 0px #ffd933;
+  box-shadow: inset 0px 4px 0px 0px #ffd933;
+  background-color: white;
+  font-weight: bold !important;
+}
+/* line 84, ../sass/custom/_navigation.scss */
+.nav-justified .j-active:hover {
+  -webkit-box-shadow: inset 0px 4px 0px 0px #ffd933;
+  -moz-box-shadow: inset 0px 4px 0px 0px #ffd933;
+  box-shadow: inset 0px 4px 0px 0px #ffd933;
+  background-color: white;
+}
+
+/* line 94, ../sass/custom/_navigation.scss */
+.bottom-nav {
+  border-top: solid 1px #cccccc;
+  padding: 20px 0 10px 0;
+  transition: all .4s;
+  font-size: 18px;
+}
+/* line 99, ../sass/custom/_navigation.scss */
+.bottom-nav .fa-chevron-left {
+  margin-right: 3px;
+  transition: all .4s;
+}
+/* line 103, ../sass/custom/_navigation.scss */
+.bottom-nav .fa-chevron-right {
+  margin-left: 3px;
+  transition: all .4s;
+}
+/* line 107, ../sass/custom/_navigation.scss */
+.bottom-nav a {
+  text-decoration: none;
+  color: #192b33;
+}
+/* line 110, ../sass/custom/_navigation.scss */
+.bottom-nav a:hover {
+  color: #8fb259;
+}
+/* line 112, ../sass/custom/_navigation.scss */
+.bottom-nav a:hover .fa-chevron-left {
+  margin-right: 6px;
+  color: #192b33;
+}
+/* line 116, ../sass/custom/_navigation.scss */
+.bottom-nav a:hover .fa-chevron-right {
+  margin-left: 6px;
+  color: #192b33;
+}
+/* line 122, ../sass/custom/_navigation.scss */
+.bottom-nav .prev {
+  float: right;
+  text-align: right;
+  padding-right: 50px;
+}
+/* line 127, ../sass/custom/_navigation.scss */
+.bottom-nav .next {
+  padding-left: 50px;
+}
+/* line 130, ../sass/custom/_navigation.scss */
+.bottom-nav .section {
+  display: block;
+  padding-left: 50px;
+}
+
+/* line 137, ../sass/custom/_navigation.scss */
+footer {
+  background-color: #192b33;
+  width: 100%;
+  margin-top: 50px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+/* line 1, ../sass/custom/_general.scss */
+body {
+  font-family: "Asap", sans-serif;
+  background-color: #ebebeb;
+}
+
+/* line 6, ../sass/custom/_general.scss */
+h1, h2, h3, h4 {
+  font-family: "Roboto Slab", serif;
+  color: #192b33;
+}
+
+/* line 11, ../sass/custom/_general.scss */
+h1, h2 {
+  margin-bottom: 0;
+}
+/* line 13, ../sass/custom/_general.scss */
+h1 a, h2 a {
+  color: #192b33;
+}
+/* line 15, ../sass/custom/_general.scss */
+h1 a:hover, h2 a:hover {
+  text-decoration: none;
+}
+
+/* line 21, ../sass/custom/_general.scss */
+.jumbo-home {
+  font-size: 28px;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+}
+/* line 25, ../sass/custom/_general.scss */
+.jumbo-home h1 {
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 36px;
+  padding-bottom: 10px;
+}
+
+/* line 39, ../sass/custom/_general.scss */
+ul {
+  list-style-type: square;
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+/* line 45, ../sass/custom/_general.scss */
+a {
+  color: #8fb259;
+  transition: .4s all;
+}
+/* line 48, ../sass/custom/_general.scss */
+a:hover {
+  color: #192b33;
+}
+
+/* line 53, ../sass/custom/_general.scss */
+.inline-img {
+  float: right;
+  padding: 5px 0 5px 5px;
+}
+
+/* line 57, ../sass/custom/_general.scss */
+.image-head {
+  display: inline-block;
+}
+
+/* line 61, ../sass/custom/_general.scss */
+.row {
+  margin-top: 30px;
+}
+
+/* line 65, ../sass/custom/_general.scss */
+.card {
+  padding: 0 15px;
+  overflow: hidden;
+  background-color: white;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+}
+/* line 72, ../sass/custom/_general.scss */
+.card h2 {
+  margin: 0 -15px;
+  background-color: #192b33;
+  padding: 10px 15px;
+  color: white;
+}
+/* line 78, ../sass/custom/_general.scss */
+.card ul {
+  margin-top: 20px;
+}
+/* line 80, ../sass/custom/_general.scss */
+.card ul li {
+  margin-bottom: 20px;
+}
+
+/* line 86, ../sass/custom/_general.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 90, ../sass/custom/_general.scss */
+.no-padding {
+  padding: 0;
+}
+
+/* line 94, ../sass/custom/_general.scss */
+.extra-padding {
+  padding: 0px 30px;
+}
+
+/* line 98, ../sass/custom/_general.scss */
+.sub {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+/* line 103, ../sass/custom/_general.scss */
+.container-fluid {
+  padding: 0;
+}
+
+/* line 107, ../sass/custom/_general.scss */
+.jumbo-img {
+  background: url(../images/background.jpg);
+  background-size: 100% auto;
+  width: 100%;
+  height: 500px;
+}
+
+/* line 114, ../sass/custom/_general.scss */
+.jumbo-img-weather {
+  background: url(../images/weather.jpg);
+  background-size: 100% auto;
+  width: 100%;
+  height: 200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: -300px 0;
+}
+
+/* line 126, ../sass/custom/_general.scss */
+.jumbo-img-greenhouse {
+  background: url(../images/greenhouse.jpg);
+  background-size: 100% auto;
+  width: 100%;
+  height: 200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: -300px 0;
+}
+
+/* line 138, ../sass/custom/_general.scss */
+.jumbo-img-health {
+  background: url(../images/health.jpg);
+  background-size: 100% auto;
+  width: 100%;
+  height: 200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: -300px 0;
+}
+
+/* line 150, ../sass/custom/_general.scss */
+.top-head {
+  display: inline-block;
+  padding: 0 10px 5px;
+  margin-top: 100px;
+  color: white;
+  font-size: 48px;
+  text-shadow: 2px 2px 2px black;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 160, ../sass/custom/_general.scss */
+.shorten-img {
+  max-height: 200px;
+}
+
+/* line 164, ../sass/custom/_general.scss */
+.full-img {
+  width: 100%;
+}
+
+/* line 168, ../sass/custom/_general.scss */
+.push-nav {
+  margin-top: 75px;
+}
+
+/* line 172, ../sass/custom/_general.scss */
+.panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
+  color: #192b33;
+}
+
+/* line 176, ../sass/custom/_general.scss */
+.panel-body {
+  padding: 0 15px !important;
+}
+
+/* line 180, ../sass/custom/_general.scss */
+.panel-heading {
+  background-color: white !important;
+}
+
+/* line 1, ../sass/custom/_buttons.scss */
+.btn-primary {
+  background-color: #cccc52;
+  border: none;
+  color: #192b33;
+  transition: all .4s;
+  padding: 10px 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+/* line 9, ../sass/custom/_buttons.scss */
+.btn-primary i {
+  position: relative;
+  left: 3px;
+  top: 1px;
+  transition: all .4s;
+}
+/* line 15, ../sass/custom/_buttons.scss */
+.btn-primary:hover {
+  background-color: #8fb259;
+  color: #192b33;
+}
+/* line 18, ../sass/custom/_buttons.scss */
+.btn-primary:hover i {
+  left: 5px;
+}
+
+/* line 11, ../sass/custom/_internal.scss */
+.small {
+  border-top: solid 1px #cccccc;
+}
+/* line 13, ../sass/custom/_internal.scss */
+.small h3 {
+  font-size: 16px;
+}
+/* line 17, ../sass/custom/_internal.scss */
+.small ul {
+  font-size: 12px;
+}
